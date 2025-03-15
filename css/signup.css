@@ -1,0 +1,71 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-main
+{
+    background-color: white;
+    width: 450px;
+}
+
+.signup-main h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.signup-main p 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.signup-main form input
+{
+    border: none;
+    border-bottom: 3px solid #f76c65;
+    border-radius: 0px;
+} 
+
+.signup-main form input:focus
+{
+    border-bottom: 3px solid #f76c65;
+}
+
+.signup-main form button
+{
+    background-color: #f76c65;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.signup-main h2
+{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.signup-main h2 a
+{
+    text-decoration: none;
+    color: #f76c65;
+    font-weight: bold;
+}
+
+.signup-main .para2, .signup-main .para2 a 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: gray;
+}

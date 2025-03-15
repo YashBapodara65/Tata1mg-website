@@ -1,0 +1,296 @@
+.s1
+{
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.s1 .s1d1
+{
+    width: 75%;
+}
+
+.s1 .s1d1 img
+{
+    width: 90px;
+    height: 65px;
+}
+
+.s1 .s1d1 h1 a
+{
+    color: #ff7872;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.s1 .s1d1 a h2, .s1 .s1d1 a
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.s1 .s1d1 a span
+{
+    height: 100%;
+    font-weight: bold;
+    background-color: #ff7872;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.s1 .s1d2
+{
+    width: 25%;
+    justify-content: space-evenly;
+}
+
+.s1 .s1d2 a
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.s2
+{
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.s2 .s2d1 .location select
+{
+    background-color: #f1f4f6;
+    border: none;
+}
+
+.s2 .s2d1 .location .bi-geo-alt-fill
+{
+    right: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.s2 .s2d1 .search
+{
+    width: 70%;
+}
+
+.s2 .s2d1 .search form
+{
+    width: 100%;
+}
+
+.s2 .s2d1 .search input
+{
+    background-color: #f1f4f6;
+    border: none;
+}
+
+.s2 .s2d1 .search .btn-search
+{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    right: 0%;
+    background-color: #f1f4f6;
+    cursor: pointer;
+}
+
+.s2 .s2d1 .search input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+.s2 .s2d2 button
+{
+    background: #f76c65;
+    color: white;
+}
+
+.s3 ul
+{
+    list-style: none;
+}
+
+.s3 ul .parent .main-text, .s3 ul .parent .main-text a
+{
+    transition: 0.2s;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.s3 ul .parent .main-text:hover, .s3 ul .parent .main-text a:hover
+{
+    color: #f76c65;
+}
+
+.s3 ul .parent:hover .child, .s3 ul .parent:hover .child2, .s3 ul .parent:hover .child3
+{
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+    background-color: white;
+}
+
+.s3 ul li .child, .s3 ul li .child2
+{
+    left: -2%;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.s3 ul li .child3
+{
+    right: -2%;
+    width: max-content;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.s3 ul li .child ul li a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s3 ul li .child2 ul li a, .s3 ul li .child3 ul li a
+{
+    font-size: 13px;
+    text-decoration: none;
+    color: gray;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.s3 ul li .child ul li a:hover, .s3 ul li .child2 ul li a:hover, .s3 ul li .child3 ul li a:hover 
+{
+    color: #f76c65;
+}
+
+.last3, .last4
+{
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.last3 h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.last3 ul
+{
+    list-style: none;
+}
+
+.last3 ul li a
+{
+    text-decoration: none;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.last3 .l4 .links a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.last3 .l4 .links a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.last3 .l4 button
+{
+    background-color: #f76c65;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: none;
+}
+
+.last4 .bi-shield-check, .last4 .bi-file-lock2, .last4 .bi-wallet2
+{
+    color: #f76c65;
+}
+
+.last4 h1, .last4 p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: gray;
+}
+
+@media(max-width:1400px)
+{
+    .s1 .s1d1 .type1
+    {
+        display: none;
+    }
+
+    .s1 .s1d1
+    {
+        width: 40%;
+    }
+
+    .s1 .s1d2
+    {
+        width: 60%;
+        justify-content: flex-end;
+    }
+
+    .s1 .s1d2 .bts2
+    {
+        display: none;
+    }
+
+    .s3in
+    {
+        display: none;
+    }
+
+}
+
+@media(max-width:576px)
+{
+
+    .last4 .l1
+    {
+        flex-direction: column;
+    }
+
+    .last4 .l2
+    {
+        text-align: center;
+    }
+
+}

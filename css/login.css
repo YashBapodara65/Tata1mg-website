@@ -1,0 +1,80 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-main
+{
+    width: 450px;
+    background-color: white;
+}
+
+.login-main h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.login-main p 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.login-main form input
+{
+    border: none;
+    border-bottom: 3px solid #f76c65;
+    border-radius: 0px;
+} 
+
+.login-main form input:focus
+{
+    border-bottom: 3px solid #f76c65;
+}
+
+.login-main form button
+{
+    background-color: #f76c65;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+}
+
+.login-main h2
+{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.login-main h2 a
+{
+    text-decoration: none;
+    color: #f76c65;
+    font-weight: bold;
+}
+
+.login-main .para2, .login-main .para2 a 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.login-main .help a
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #f76c65;
+}
