@@ -1,0 +1,115 @@
+aside
+{
+    height: 100vh;
+    overflow:auto;
+    position: fixed;
+    width: 250px;
+    transition: 0.3s;
+}
+
+aside ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+aside .mainli:hover, aside .mainul1 .parent:hover, aside .mainul1 .innerul1 li:hover, aside .mainul2 .parent:hover, aside .mainul2 .innerul2 li:hover
+{
+    background-color: gray;
+}
+
+aside .mainul1 .innerul1, aside .mainul2 .innerul2
+{
+    display: none;
+}
+
+aside .mainul1 li .fa-chevron-right, aside .mainul2 li .fa-chevron-right
+{
+    transition: 0.3s;
+}
+
+.add-fa-chevron-right
+{
+    transform: rotate(90deg);
+}
+
+aside .bi-x
+{
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+aside h1
+{
+    margin-top: 20px;
+}
+
+aside ul li
+{
+    list-style: none;
+    cursor: pointer;
+    color: white;
+}
+
+.main-content
+{
+    margin-left: 250px;
+    transition: 0.3s;
+}
+
+.aside-menu
+{
+    width: 0px;
+}
+
+.section-menu
+{
+    margin-left: 0px;
+}
+
+aside::-webkit-scrollbar
+{
+    display: none;
+}
+
+.main-content header
+{
+    height: 50px;
+}
+
+.main-content .s1 .cards
+{
+    background-color: red;
+}
+
+.main-content .s2
+{
+    width: 600px;
+}
+
+@media (max-width:992px)
+{
+    .aside-menu1
+    {
+        width: 0%;
+    }
+
+    .section-menu1
+    {
+        margin-left: 0px;
+    }
+
+    aside .bi-x
+    {
+        display: block;
+        height: 100%;
+    }
+
+    aside h1
+    {
+        margin-top: 100px;
+    }
+
+}

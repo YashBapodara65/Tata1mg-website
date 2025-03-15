@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/cart.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <section class="s2">
+    <div class="row w-100 d-flex justify-content-evenly align-items-center">
+      <div class="s2d1 mt-2 mb-2 col-lg-7 col-11 d-flex justify-content-center gap-2 align-items-center">
+        <img src="./images/logo.svg" alt="">
+        <div class="search position-relative d-flex justify-content-center align-items-center">
+          <input type="search" class="form-control rounded-0 ps-3 pe-5 shadow-none"
+            placeholder="Search for Medicines and Health Products">
+          <button class="btn-search position-absolute border-0"><i class="bi bi-search"></i></button>
+        </div>
+      </div>
+      <div class="s2d2 col-lg-5 col-11 mt-2 mb-2 pe-5 d-flex justify-content-end align-items-center">
+        <a href="" class="text-decoration-none text-dark">Need Help?</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="s3 pt-2 pb-2 d-flex justify-content-center align-items-center">
+    <div class="s3in">
+      <ul class="p-0 m-0 d-flex gap-1 justify-content-evenly align-items-center">
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2">Health Resource Center &nbsp;<i class="bi bi-chevron-down"
+              style="font-size: 12px;"></i></div>
+          <div class="child p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li><a href="">All Diseases</a></li>
+              <li><a href="">All Medicines</a></li>
+              <li><a href="">Medicines by Therapeutic Class</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Vitamins & Nutrition &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child2 d-flex justify-content-evenly gap-3 align-items-start p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Multivitamins</a></li>
+              <li class="mt-1"><a href="">Kids</a></li>
+              <li class="mt-1"><a href="">Women</a></li>
+              <li class="mt-1"><a href="">Sports</a></li>
+              <li class="mt-1"><a href="">Vegetarian</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Omega & Fish Oil</a></li>
+              <li class="mt-1"><a href="">Fish Oil</a></li>
+              <li class="mt-1"><a href="">Cod Liver Oil</a></li>
+              <li class="mt-1"><a href="">Flax Seed Oil</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Calcium</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Minerals</a></li>
+              <li class="mt-1"><a href="">Iron</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Vitamin B</a></li>
+            </ul>
+            <hr style="background: gray; width: 2px; height: 375px;">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Vitamin D</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Vitamin C</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Vitamin A</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Global Supplements</a></li>
+              <li class="mt-1"><a href="">Now Foods</a></li>
+              <li class="mt-1"><a href="">Solgar</a></li>
+              <li class="mt-1"><a href="">Nordic naturals</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Hair & Skin Supplements</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Specialty Supplements</a></li>
+              <li class="mt-1"><a href="">Antioxidants</a></li>
+              <li class="mt-1"><a href="">Glucosamine</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Vitamin K</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Gummies Vitamins</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Nutritional Drinks &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child2 d-flex justify-content-evenly gap-3 align-items-center p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Green Tea & Herbal Tea</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Adult Daily Nutrition</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Kids Nutrition (2-15 Yrs)</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Women Nutrition</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Apple Cider Vinegar</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Diabetes Nutrition</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Specialized Nutrition</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Green Coffee</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Fitness Supplements &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child2 d-flex justify-content-evenly gap-3 align-items-start p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Whey Protein</a></li>
+              <li class="mt-1"><a href="" class="fw-bold">Fat Burners</a></li>
+              <li class="mt-1"><a href="" class="fw-bold">Protein Supplements</a></li>
+              <li class="mt-1"><a href="" class="fw-bold">Workout Essentials</a></li>
+              <li class="mt-1"><a href="" class="fw-bold">Mass Gainers</a></li>
+              <li class="mt-1"><a href="" class="fw-bold">Amino Acids</a></li>
+              <li class="mt-1"><a href="">Arginine</a></li>
+              <li class="mt-1"><a href="">BCAA</a></li>
+              <li class="mt-1"><a href="">Glutathione</a></li>
+              <li class="mt-1"><a href="">Glutamine</a></li>
+              <li class="mt-1"><a href="">Creatine</a></li>
+              <li class="mt-1"><a href="">Carnitine</a></li>
+            </ul>
+            <hr style="background: gray; width: 2px; height: 60px;">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Sports</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Plant Protein</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Stomach Care &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child2 d-flex justify-content-evenly gap-3 align-items-center p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Constipation</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Acidity</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Pre and Probiotics</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Indigestion</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Diarrhoea</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Bloating</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Feminine Care &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child3 d-flex justify-content-evenly gap-3 align-items-center p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-4"><a href="" class="fw-bold">Sanitary Pads</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Breast Pumps</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Hair Removal</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Intimate Wash & Wipes</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Toilet Sanitaries</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Menstrual Cup & Tampons</a></li>
+              <li class="mt-1"><a href="">Tampons</a></li>
+              <li class="mt-1"><a href="">Menstrual Cups</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Healthy Snacks &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child3 d-flex justify-content-evenly gap-3 align-items-start p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Granola & Protein Bars</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Peanut Butter</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Honey</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Dry Fruits & Berries</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Cookies</a></li>
+            </ul>
+            <hr style="background: gray; width: 2px; height: 175px;">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Oats</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Muesli & Cereals</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Edible Seeds & Nuts</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Superfoods</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Quinoa</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Other Snacks</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Diabets &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child3 d-flex justify-content-evenly gap-3 align-items-start p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Blood Glucose Monitors</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Test Strips & Lancets</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Sugar Substitutes</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Diabetic Footwear</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Juices & Vinegars</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="parent position-relative">
+          <div class="main-text ps-2 pe-2"><a href="">Immunity Boosters &nbsp;<i class="bi bi-chevron-down"
+                style="font-size: 12px;"></i></a></div>
+          <div
+            class="child3 d-flex justify-content-evenly gap-3 align-items-start p-3 shadow rounded-2 position-absolute">
+            <ul class="p-0">
+              <li class="mt-2"><a href="" class="fw-bold">Chyawanparash</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Antioxidant Supplements</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Ayurvedic Substitutes</a></li>
+              <li class="mt-2"><a href="" class="fw-bold">Herbal Tea</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="s4 pt-5 pb-5">
+    <div class="row cart-data w-100 m-0 d-flex justify-content-evenly">
+      <div class="container ps-5">
+        <h1 class="fs-4 tot-cart"></h1>
+      </div>
+      <div class="cart-details row w-100 m-0">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="last2 d-flex justify-content-center align-items-center flex-column">
+    <h1 class="fs-3 mt-3 text-center">India's Largest Healthcare Platform</h1>
+    <div class="container">
+      <div class="l1 mt-4 mb-3">
+        <div class="box1 d-flex justify-content-center align-items-center flex-column">
+          <h1 class="fw-bold">260m+</h1>
+          <p class="fs-5">Visitors</p>
+        </div>
+        <div class="box1 d-flex justify-content-center align-items-center flex-column">
+          <h1 class="fw-bold">31m+</h1>
+          <p class="fs-5">Order Delivered</p>
+        </div>
+        <div class="box1 d-flex justify-content-center align-items-center flex-column">
+          <h1 class="fw-bold">1800+</h1>
+          <p class="fs-5">Cities</p>
+        </div>
+      </div>
+    </div>
+    <hr class="w-75">
+    <div class="l2 mt-4 mb-4  d-flex justify-content-evenly align-items-center gap-5">
+      <h1 class="fs-5 m-0">Get the link to download App</h1>
+      <form action="">
+        <input type="tel" placeholder="Enter Phone Number" class="form-control">
+        <input type="submit" class="ps-4 pe-4 pt-2 pb-2 rounded-2" value="Send Link">
+      </form>
+    </div>
+  </section>
+
+  <section class="last3">
+    <div class="container">
+      <div class="row w-100 mb-5 d-flex justify-content-between align-items-start m-0">
+        <div class="l1 mt-5 col-lg-2 col-md-5 col-10">
+          <h1 class="fs-5">Know Us</h1>
+          <ul class="p-0">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Press Coverage</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Business Partnership</a></li>
+            <li><a href="">Become a Health Partner</a></li>
+            <li><a href="">Corporate Governance</a></li>
+          </ul>
+        </div>
+        <div class="l2 mt-5 col-lg-2 col-md-5 col-10">
+          <h1 class="fs-5">Our Policies</h1>
+          <ul class="p-0">
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms and Conditions</a></li>
+            <li><a href="">Editorial Policy</a></li>
+            <li><a href="">Return Policy</a></li>
+            <li><a href="">IP Policy</a></li>
+            <li><a href="">Grievance Redressal Policy</a></li>
+            <li><a href="">Fake Jobs and Fraud Disclaimer</a></li>
+          </ul>
+        </div>
+        <div class="l3 mt-5 col-lg-2 col-md-5 col-10">
+          <h1 class="fs-5">Our Services</h1>
+          <ul class="p-0">
+            <li><a href="">Order Medicines</a></li>
+            <li><a href="">Book Lab Tests</a></li>
+            <li><a href="">Consult a Doctor</a></li>
+            <li><a href="">Ayurveda Articles</a></li>
+            <li><a href="">Hindi Articles</a></li>
+            <li><a href="">Care Plan</a></li>
+          </ul>
+        </div>
+        <div class="l4 mt-5 col-lg-3 col-md-5 col-10">
+          <h1 class="fs-5">Connect</h1>
+          <p class="m-0">Social Links</p>
+          <div class="links mt-2 mb-2 d-flex justify-content-start gap-3 align-items-center">
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-youtube"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+          <p class="m-0">Want daily dose of health?</p>
+          <button class="ps-4 mt-1 pe-4 pt-2 pb-2 rounded-2">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="last4">
+    <div class="row w-100 m-0 d-flex gap-5 justify-content-center align-items-center">
+      <div class="col-xl-3 l1 col-lg-5 col-10 d-flex justify-content-between align-items-center gap-5 p-4">
+        <div>
+          <i class="bi bi-shield-check display-2"></i>
+        </div>
+        <div class="l2">
+          <h1 class="fs-3">Reliable</h1>
+          <p class="mt-3">All products displayed on Tata 1mg are procured from verified and licensed pharmacies. All
+            labs listed on the platform are accredited</p>
+        </div>
+      </div>
+      <div class="col-xl-3 l1 col-lg-5 col-10 d-flex justify-content-between align-items-center gap-5 p-4">
+        <div>
+          <i class="bi bi-file-lock2 display-2"></i>
+        </div>
+        <div class="l2">
+          <h1 class="fs-3">Secure</h1>
+          <p class="mt-3">Tata 1mg uses Secure Sockets Layer (SSL) 128-bit encryption and is Payment Card Industry Data
+            Security Standard (PCI DSS) compliant</p>
+        </div>
+      </div>
+      <div class="col-xl-3 l1 col-lg-6 col-10 d-flex justify-content-between align-items-center gap-5 p-4">
+        <div>
+          <i class="bi bi-wallet2 display-2"></i>
+        </div>
+        <div class="l2">
+          <h1 class="fs-3">Affordable</h1>
+          <p class="mt-3">Find affordable medicine substitutes, save up to 50% on health products, up to 80% off on lab
+            tests and free doctor consultations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="p-4 d-flex justify-content-center align-items-center">
+    <p class="text-center m-0 w-75">© 2024 Tata 1mg. All rights reserved. All medicines are dispensed in compliance with
+      the Drugs and Cosmetics Act, 1940 and Drugs and Cosmetics Rules, 1945. We do not process requests for Schedule X
+      and habit forming drugs.</p>
+  </footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+
+  let email = JSON.parse(localStorage.getItem("email2"));
+  let userID = "";
+
+  fetch(`http://localhost:3000/visitors?EmailID=${email}`)
+    .then((res) => res.json())
+    .then((res) => {
+      userID = res[0].id;
+    })
+    .catch((err) => {
+      console.log(err);
+    })
+
+  if(email == null)
+  {
+    window.location.href = "login.html"
+  }
+
+  allLogic();
+
+  function allLogic() {
+    fetch(`http://localhost:3000/carts?userEmail=${email}`)
+      .then((res) => res.json())
+      .then((res) => {
+        if (res == "") {
+          document.querySelector(".tot-cart").innerHTML = "";
+          document.querySelector(".cart-details").innerHTML = `
+        <div class="d-flex flex-column justify-content-center gap-2 align-items-center">
+          <img src="./images/cart.svg" style="width:400px;">
+          <h1 class="fs-4">Your cart is empty</h1>
+        <p style="font-size:18px;">We have all the medicines and healthcare products that you need.</p>
+        <button onclick="home()" class="btn fs-5 btn-white" style="width:400px; border: 2px solid #f76c65; color:#f76c65;">Find products</button>
+        </div>
+        `;
+        }
+        else {
+          document.querySelector(".cart-details").innerHTML = `
+        <div class="s4d1 col-xl-8 table-responsive" style="border: 1px solid gray;">
+          <table class="">
+          </table>
+        </div>
+        <div class="s4d2 d-flex p-0 justify-content-start flex-column col-xl-4" style="border: 1px solid gray;">
+          <div class="totalBox p-3">
+            <h1 class="fs-5">Bill summary</h1>
+          <div class="d-flex mt-3 justify-content-between align-items-center">
+            <p class="m-0">Item total (MRP)</p>
+            <p class="m-0 total1"></p>
+          </div>
+          <div class="d-flex mt-2 justify-content-between align-items-center">
+            <p class="m-0">Green packaging charge&nbsp;&nbsp;&nbsp;<i class="bi bi-question-circle"></i></p>
+            <p class="m-0">4</p>
+          </div>
+          <div class="d-flex mt-2 justify-content-between align-items-center">
+            <p class="m-0">Total Discount&nbsp;&nbsp;&nbsp;<i class="bi bi-question-circle"></i></p>
+            <p class="m-0 total2"></p>
+          </div>
+          <div class="d-flex mt-2 justify-content-between align-items-center">
+            <p class="m-0">Shipping fee</p>
+            <p class="m-0">As per delivery address</p>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center">
+            <h1 class="fs-5">To be paid</h1>
+            <h1 class="fs-5 finalTotal">3236</h1>
+          </div>
+            <button onclick="addOrder()" class="w-100 mt-3 mb-1 fw-bold pt-2 pb-2" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Add Order</button>
+          </div>
+        </div>
+        `;
+          let data = "";
+          res.forEach((el, i) => {
+            data += `
+          <tr>
+              <td class="p-4"><img src="${el.imagePath}" style="width: 50px; height: 50px;"></td>
+              <td class="p-4">
+                <h1 class="fs-6 m-0">${el.imageTitle}</h1>
+                <button class="bg-white p-0" onclick="removeProd('${el.innerObj.id}')" style="border:none; border-bottom: 2px solid gray; color: gray;">Remove</button>
+              </td>
+              <td class="p-4">
+                <div class="d-flex justify-content-center align-items-center gap-2" style="width:250px">
+                  <h1 class="fs-4 m-0">&#x20B9;${el.Price - Math.round((el.Price * el.Offer) / 100)}</h1>
+                  <p class="m-0 d-flex" style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><span style="text-decoration: line-through;">&#x20B9;${el.Price}</span></p>
+                  <p class="m-0 d-flex" style="color:green; font-family: Verdana, Geneva, Tahoma, sans-serif;">${el.Offer}% off</p>
+                </div>
+              </td>
+              <td class="p-4">
+                <div class="d-flex justify-content-center align-items-center position-relative">
+                  <button onclick="decreaseQty('${el.innerObj.id}')" class="border-0 fs-4 position-absolute" style="background: transparent; transform: translate(-50%,-50%); top: 50%; left: 15%; color: #f76c65;">-</button>
+                  <input type="number" class="form-control shadow-none fs-5 text-center" style="border: 2px solid #f76c65; cursor: pointer; width: 150px;" id="qty${el.innerObj.id}" value="${el.quantity}" readonly>
+                  <button onclick="increaseQty('${el.innerObj.id}')" class="border-0 fs-4 position-absolute" style="background: transparent; transform: translate(-50%,-50%); top: 50%; right: 0%; color: #f76c65;">+</button>
+                </div>
+              </td>
+            </tr>
+          `;
+          });
+          document.querySelector("table").innerHTML = data;
+        }
+
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  }
+
+  counter();
+
+  function counter() {
+    fetch(`http://localhost:3000/carts?userEmail=${email}`)
+      .then((res) => res.json())
+      .then((res) => {
+        let count = 0;
+        let tot1 = 0;
+        let disTot2 = 0;
+        if (res == "") {
+          // console.log("null");
+        }
+        else {
+          res.forEach((el, i) => {
+            count++;
+            tot1 += ((el.Price - Math.round((el.Price * el.Offer) / 100)) * el.quantity);
+            disTot2 += Math.round((el.Price * el.quantity * el.Offer) / 100);
+          })
+          document.querySelector(".tot-cart").innerHTML = `${count} items added <p style="font-weight:normal;" class="fs-6">Items not requiring prescription</p>`;
+          document.querySelector(".total1").innerHTML = `${tot1}`;
+          document.querySelector(".total2").innerHTML = `${disTot2}`;
+          let sum = (tot1 - disTot2) + 4;
+          document.querySelector(".finalTotal").innerHTML = `${sum}`;
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+  }
+
+  function home() {
+    window.location.href = "index.html";
+  }
+
+
+</script>
+<script>
+
+  function removeProd(id) {
+    fetch(`http://localhost:3000/carts?innerObj.id=${id}`)
+      .then((res) => res.json())
+      .then((res) => {
+        let d = res.filter((el, i) => {
+          return el.userID == userID;
+        });
+        // console.log(d);
+        deleteProd(d[0].id);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+  }
+
+  function deleteProd(id) {
+    // console.log("deleted",id);
+    fetch(`http://localhost:3000/carts/${id}`, {
+      method: "DELETE"
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        console.log("product deleted");
+        allLogic();
+        counter();
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+  }
+
+  function decreaseQty(id) {
+    let data = document.querySelector(`#qty${id}`).value;
+
+    if (data > 1) {
+      data--;
+
+      document.querySelector(`#qty${id}`).value = data;
+
+      let obj = {
+        quantity: data
+      }
+
+      checkupdateQty(id, obj);
+    }
+
+  }
+
+  function increaseQty(id) {
+    let data = document.querySelector(`#qty${id}`).value;
+    data++;
+
+    document.querySelector(`#qty${id}`).value = data;
+
+    let obj = {
+      quantity: data
+    }
+
+    checkupdateQty(id, obj);
+  }
+
+  function checkupdateQty(id, obj) {
+    fetch(`http://localhost:3000/carts?innerObj.id=${id}`)
+      .then((res) => res.json())
+      .then((res) => {
+        let d = res.filter((el, i) => {
+          return el.userID == userID;
+        });
+        // console.log(d[0]);
+        updateCartQty(d[0].id, obj);
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+  }
+
+  function updateCartQty(id, data) {
+    // console.log(id);
+    // console.log(data);
+    fetch(`http://localhost:3000/carts/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    })
+      .then((res) => res.json())
+      .then((res) => {
+        console.log("quantity updated");
+        counter();
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+
+  }
+
+</script>
+
+<script>
+
+  function addOrder()
+  {
+      fetch(`http://localhost:3000/carts?userEmail=${email}`)
+      .then((res)=>res.json())
+      .then((res)=>{
+        let prod_id = [];
+        let prod_inner_id = [];
+        let prod_cart = [];
+        let prod_total = 0;
+        let price_total = 4;
+        res.forEach((el,i)=>{
+          prod_id.push(el.id);
+          prod_inner_id.push(el.innerObj.id);
+          prod_cart.push(el.quantity);
+          prod_total++;
+          price_total += ((el.Price - Math.round((el.Price * el.Offer) / 100)) * el.quantity) - Math.round((el.Price * el.quantity * el.Offer) / 100);
+        });
+        finalOrder(prod_inner_id,prod_cart,price_total,prod_total,userID);
+        deleteCart(prod_id);
+      })
+      .catch((err)=>{
+        console.log(err);
+      })
+  }
+
+  function finalOrder(id,cart,total,prod,userID)
+  {
+    let obj = {
+      prodId : id, 
+      prodCart : cart,
+      priceTotal : total,
+      prodTotal : prod,
+      userID : userID
+    }
+
+    fetch(`http://localhost:3000/users-order/`,{
+      method: "POST",
+      headers: {
+        "Content-Type" : "application/json"
+      },
+      body: JSON.stringify(obj)
+    })
+    .then((res)=>{
+      // console.log(res);
+    })
+    .then((res)=>{
+    })
+    .catch((err)=>{
+      console.log(err);
+    })
+  }
+
+  function deleteCart(id)
+  {
+    id.forEach((el,i)=>{
+      fetch(`http://localhost:3000/carts/${el}`,{
+        method: "DELETE"
+      })
+      .then((res)=>res.json())
+      .then((res)=>{
+        // console.log("delete successful");
+        allLogic();
+        counter();
+      })
+      .catch((err)=>{
+        console.log(err);
+      })
+    })
+  }
+
+</script>
+
+</html>

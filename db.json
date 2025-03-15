@@ -1,0 +1,473 @@
+{
+  "visitors": [
+    {
+      "Username": "yash",
+      "MobileNo": "1234567890",
+      "EmailID": "yash@gmail.com",
+      "Password": "yash@1234",
+      "Address": "rajkot",
+      "id": "f64b"
+    }
+  ],
+  "healthConcerns": [
+    {
+      "id": "1",
+      "imagePath": "./images/s71.png",
+      "imageTitle": "Diabetes"
+    },
+    {
+      "id": "2",
+      "imagePath": "./images/s72.png",
+      "imageTitle": "Heart Care"
+    },
+    {
+      "id": "3",
+      "imagePath": "./images/s73.png",
+      "imageTitle": "Stomach Care"
+    },
+    {
+      "id": "4",
+      "imagePath": "./images/s74.png",
+      "imageTitle": "Liver Care"
+    },
+    {
+      "id": "5",
+      "imagePath": "./images/s75.png",
+      "imageTitle": "Bone, Joint & Muscle Care"
+    },
+    {
+      "id": "6",
+      "imagePath": "./images/s76.png",
+      "imageTitle": "Kidney Care"
+    },
+    {
+      "id": "7",
+      "imagePath": "./images/s77.png",
+      "imageTitle": "Derma Care"
+    },
+    {
+      "id": "8",
+      "imagePath": "./images/s78.png",
+      "imageTitle": "Eye Care"
+    },
+    {
+      "id": "9",
+      "imagePath": "./images/s79.png",
+      "imageTitle": "Respiratory Care"
+    }
+  ],
+  "healthCheckup": [
+    {
+      "id": "10",
+      "title": "Comprehensive Gold Full Body Checkup with Smart Report Includes 88 tests",
+      "price": 4498,
+      "offer": 56
+    },
+    {
+      "id": "11",
+      "title": "Comprehensive Sliver Full Body Checkup with Smart Report Includes 88 tests",
+      "price": 3798,
+      "offer": 58
+    },
+    {
+      "id": "12",
+      "title": "Comprehensive Platinum Full Body Checkup with Smart Report Includes 88 tests",
+      "price": 7198,
+      "offer": 53
+    },
+    {
+      "id": "13",
+      "title": "Good Health Smart Package",
+      "price": 800,
+      "offer": 50
+    },
+    {
+      "id": "14",
+      "title": "Good Health Sliver Package",
+      "price": 1398,
+      "offer": 50
+    },
+    {
+      "id": "15",
+      "title": "Good Health Gold Package",
+      "price": 1998,
+      "offer": 50
+    },
+    {
+      "id": "16",
+      "title": "Good Health Platinum Package",
+      "price": 2998,
+      "offer": 50
+    }
+  ],
+  "brands": [
+    {
+      "id": "17",
+      "imagePath": "./images/b1.png"
+    },
+    {
+      "id": "18",
+      "imagePath": "./images/b2.png"
+    },
+    {
+      "id": "19",
+      "imagePath": "./images/b3.png"
+    },
+    {
+      "id": "20",
+      "imagePath": "./images/b4.png"
+    },
+    {
+      "id": "21",
+      "imagePath": "./images/b5.png"
+    },
+    {
+      "id": "22",
+      "imagePath": "./images/b6.png"
+    },
+    {
+      "id": "23",
+      "imagePath": "./images/b7.png"
+    },
+    {
+      "id": "24",
+      "imagePath": "./images/b8.png"
+    },
+    {
+      "id": "25",
+      "imagePath": "./images/b9.png"
+    }
+  ],
+  "weekProducts": [
+    {
+      "id": "26",
+      "imagePath": "./images/s4d1.png",
+      "imageTitle": "Swisse Beauty Vegan Collagen Builder | With Biotin & Vitamin C for Skin & Antioxidant Benefits | Tablet",
+      "Brand": "2",
+      "video": "https://www.youtube.com/embed/woH6VuOi8R0",
+      "Price": 1299,
+      "NetContent": "30 tablets",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 2.3,
+      "Ratings": 1200,
+      "Desc": "Promotes formation of natural collagen which vitally improves skin health and reduce wrinkles. Provides antioxidant support and reduce free radicals formed in the body",
+      "Offer": 23
+    },
+    {
+      "id": "27",
+      "imagePath": "./images/s4d2.png",
+      "imageTitle": "Nirvasa Skin Radiance Gummies (60 Each) Orange",
+      "Brand": "5",
+      "video": "https://www.youtube.com/embed/E_W727hqs20",
+      "Price": 1099,
+      "NetContent": "1 bottle",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 3.2,
+      "Ratings": 1340,
+      "Desc": "Illuminates the skin. Brightens and lightens the cells. Reduces excess sebum production. Maintains skin’s elasticity",
+      "Offer": 47
+    },
+    {
+      "id": "28",
+      "imagePath": "./images/s4d3.png",
+      "imageTitle": "SheNeed Hair Supplement with Folic Acid, Iron & Vitamin E | Capsule",
+      "Brand": "3",
+      "video": "https://www.youtube.com/embed/U12rRDSM19M",
+      "Price": 499,
+      "NetContent": "60 capsules",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 3.5,
+      "Ratings": 225,
+      "Desc": "Maintains skin elasticity. Improves skin moisture level. Fights against the signs of lines and wrinkles. Keeps skin, hair and nails healthy",
+      "Offer": 17
+    },
+    {
+      "id": "29",
+      "imagePath": "./images/s4d4.png",
+      "imageTitle": "Clocip Anti-Fungal Dusting Powder | For Skin Infections, Itching, Rashes",
+      "Brand": "4",
+      "video": "https://www.youtube.com/embed/YiFNhtEKJFY",
+      "Price": 140,
+      "NetContent": "100 gm dusting powder",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 3.3,
+      "Ratings": 413,
+      "Desc": "Helps alleviate various fungal infections. Comes with an in-built duster for accurate application of the powder. Can be especially effective against pityriasis. Relieves common skin infections like athlete's foot, ringworm etc",
+      "Offer": 27
+    },
+    {
+      "id": "30",
+      "imagePath": "./images/s4d5.png",
+      "imageTitle": "Cofsils Experdine Gargle | Mouth Wash for Sore throat, Flu, Cold, Tonsils, Throat Pain Gargle",
+      "Brand": "5",
+      "video": "https://www.youtube.com/embed/kl69eFzw0V0",
+      "Price": 170,
+      "NetContent": "100 ml gargle",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 1.5,
+      "Ratings": 562,
+      "Desc": "It prevents the multiplication and spread of respiratory viruses. It rapidly kills viruses/germs causing flu, cold and common respiratory disease. It gives quick relief from tonsillitis and pharyngitis",
+      "Offer": 28
+    },
+    {
+      "imagePath": "./images/s4d6.png",
+      "imageTitle": "SheNeed Plant Based Daily Women’s Protein Powder Chocolate",
+      "video": "https://www.youtube.com/embed/Nv0ZOsDWpHQ",
+      "Price": "9999",
+      "Brand": "6",
+      "NetContent": "300 gm powder",
+      "Age": "All",
+      "Gender": "Female",
+      "Voting": "4.1",
+      "Ratings": "1138",
+      "Offer": "30",
+      "Desc": "Improves metabolism and hormonal balance with Ayurveda herbs. Gives your body the protein it needs from a high-quality source. Fuels up your energy levels with high-quality protein, vitamin B, and ginseng",
+      "id": "31"
+    },
+    {
+      "id": "32",
+      "imagePath": "./images/s4d7.png",
+      "imageTitle": "Omnigel Pain Relief from Sprain, Injury, Back Pain, Muscle Pain, Body Pain, Knee Pain, Joint Pain",
+      "Brand": "9",
+      "video": "https://www.youtube.com/embed/4kpsuvB9jpM",
+      "Price": 286,
+      "NetContent": "100 gm gel",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 4.3,
+      "Ratings": 1200,
+      "Desc": "Provides relief from pain. Reduces swelling and inflammation. Has anti-inflammatory properties",
+      "Offer": 27
+    },
+    {
+      "imagePath": "./images/s4d8.png",
+      "imageTitle": "Prega News Advance Pregnancy Rapid Single-Step Test Kit",
+      "Brand": "6",
+      "video": "https://www.youtube.com/embed/vsEtiRsxeTs",
+      "Price": 120,
+      "NetContent": "1 test kit",
+      "Age": "Elderly",
+      "Gender": "Female",
+      "Voting": "3.4",
+      "Ratings": "279",
+      "Offer": "18",
+      "Desc": "Rapid single step pregnancy test kit device. Provides 99% accurate results in 3 minutes. User-friendly and non-invasive. Has a thumb grip for easy grip. Doesn’t require dropper or urine container",
+      "id": "33"
+    },
+    {
+      "id": "34",
+      "imagePath": "./images/s4d9.png",
+      "imageTitle": "Prolyte ORS Combo Pack of Ready To Drink for Body Fluid & Electrolyte Replenishment Flavour Apple & Orange",
+      "Brand": "8",
+      "video": "https://www.youtube.com/embed/pM6VSU93iUU",
+      "Price": 63,
+      "NetContent": "2 units",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 4.3,
+      "Ratings": 552,
+      "Desc": "Helps to restore body fluids. A refreshing and rejuvenating ORS drink. Easy to carry anywhere in your handbag",
+      "Offer": 25
+    },
+    {
+      "imagePath": "./images/s4d10.png",
+      "imageTitle": "Zingavita Multivitamin For Men with Omega 3 & Herbs | For Immunity & Stamina Support",
+      "Brand": "3",
+      "video": "https://www.youtube.com/embed/9UZZko7bDyc",
+      "Price": 449,
+      "NetContent": "60 soft gelatin capsules",
+      "Age": "All",
+      "Gender": "Male",
+      "Voting": "4.4",
+      "Ratings": "2350",
+      "Offer": "33",
+      "Desc": "Vegan and gluten-free. Helps boost immunity, energy and stamina. Can support joint and muscle health. Supports healthier bones. Can help relieve stress. No added preservatives",
+      "id": "35"
+    },
+    {
+      "id": "36",
+      "imagePath": "./images/s4d11.png",
+      "imageTitle": "mCaffeine Milky brew Face Scrub Remove Blackheads, Helps in Skin Brightening & D Tan",
+      "Brand": "3",
+      "video": "https://www.youtube.com/embed/F-nlXhHA7kU",
+      "Price": 229,
+      "NetContent": "75 scrub",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 2.5,
+      "Ratings": 480,
+      "Desc": "Deeply exfoliates the skin. Polishes skin and retains moisture. Evens skin tone. Removes whiteheads and blackeheads",
+      "Offer": 32
+    },
+    {
+      "id": "37",
+      "imagePath": "./images/s4d12.png",
+      "imageTitle": "CeraVe Moisturising Lotion for Dry to Very Dry Skin",
+      "Brand": "5",
+      "video": "https://www.youtube.com/embed/rqCUTVubdlg",
+      "Price": 520,
+      "NetContent": "88 ml lotion",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": 3.1,
+      "Ratings": 100,
+      "Desc": "Provides 24-hour hydration. Restores skin’s protective barrier. Retains skin’s natural moisture. Soothes the skin",
+      "Offer": 5
+    },
+    {
+      "imagePath": "./images/s4d13.jpg",
+      "imageTitle": "Lacto Calamine Oil Control Wipes Super Saver Pack",
+      "Brand": "1",
+      "video": "https://www.youtube.com/embed/bgfdtuRf-Hs",
+      "Price": 99,
+      "NetContent": "30 wipes",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": "5.3",
+      "Ratings": "1200",
+      "Offer": "25",
+      "Desc": "Removes excess oil giving you a clear matte look. Neem is a magical ingredient for oily skin. It helps clear skin and combat oily skin problems such as acne and pimples",
+      "id": "38"
+    },
+    {
+      "imagePath": "./images/s4d14.png",
+      "imageTitle": "Accu-Chek Active Blood Glucometer Kit (Box of 10 Test strips Free) | Blood Glucose Monitors",
+      "video": "https://youtube.com/embed/LqOyn0IA5o8?si=sRYxe3iSUTCwQQpu",
+      "Price": "1199",
+      "Brand": "1",
+      "NetContent": "1 Kit",
+      "Age": "All",
+      "Gender": "Unisex",
+      "Voting": "4",
+      "Ratings": "1689",
+      "Offer": "18",
+      "Desc": "Two-button intuitive handling. No code chip required. Built-in USB port. Allows double-check the displayed result",
+      "id": "4dcd"
+    },
+    {
+      "id": "dced",
+      "imagePath": "./images/s4d15.png",
+      "imageTitle": "Accu-Chek Instant Glucometer Combo Pack with Free 10 Test Strips | mySugr App | Wireless | Blood Glucose Monitors | Diabetes Monitoring Devices",
+      "Brand": "1",
+      "Age": "All",
+      "Gender": "Unisex",
+      "video": "https://youtube.com/embed/RVLLW0epc8s?si=xuze_srqGejcdIJI",
+      "Price": "1549",
+      "NetContent": "1 Unit",
+      "Voting": "4",
+      "Ratings": "454",
+      "Offer": "15",
+      "Desc": "Helps monitor blood glucose levels. Upload all data to mySugr by using Bluetooth Low Energy wireless technology. It provides accurate results in less than four seconds. Encompasses one-button navigation feature"
+    },
+    {
+      "id": "a637",
+      "imagePath": "./images/s4d16.png",
+      "imageTitle": "OneTouch Verio Combo of Flex Glucometer with 10 Test Strips Free and 50 Test Strips",
+      "Brand": "1",
+      "Age": "All",
+      "Gender": "Unisex",
+      "video": "https://youtube.com/embed/kyoIVrpssOY?si=pHYXpyxgL-v6s34h",
+      "Price": "2625",
+      "NetContent": "2 Packs",
+      "Voting": "4.3",
+      "Ratings": "1321",
+      "Offer": "16",
+      "Desc": "Simple to use. Easy to understand. Accurate"
+    },
+    {
+      "id": "22b0",
+      "imagePath": "./images/s4d17.png",
+      "imageTitle": "Nutrabay Wellness Omega 3 Fish Oil 1000 mg | For Healthy Heart, Joints & Skin | Capsule",
+      "Brand": "2",
+      "Age": "Elderly",
+      "Gender": "Unisex",
+      "video": "https://www.youtube.com/embed/7Myo3vLEX1k?si=HfAGzKLgd5SjEVcg",
+      "Price": "599",
+      "NetContent": "60 capsules",
+      "Voting": "4.5",
+      "Ratings": "92",
+      "Offer": "31",
+      "Desc": "It helps to increase good cholesterol (HDL) content in the body. It reduces blood pressure and Triglycerides levels in the body. It helps reduce joint pain and stiffness while also improving flexibility and mobility"
+    },
+    {
+      "imagePath": "./images/s4d18.png",
+      "imageTitle": "Tata 1mg Digital Blood Pressure Monitor | With USB cable | Large LCD | Memory 90 sets for 2 users",
+      "video": "https://www.youtube.com/embed/97Kmln5SHBY?si=XR6xZZXi8sA3ZpRC",
+      "Price": "1540",
+      "Brand": "2",
+      "NetContent": "1 Unit",
+      "Age": "Elderly",
+      "Gender": "Unisex",
+      "Voting": "4",
+      "Ratings": "938",
+      "Offer": "9",
+      "Desc": "Comes with a hypertension detector. Can be used with a USB cable or with batteries. Stores 90 sets of memory for 2 users. Features a large LCD display with a date and time indicator. Turns off automatically after 3 minutes if left unused",
+      "id": "03db"
+    },
+    {
+      "imagePath": "./images/s4d19.png",
+      "imageTitle": "CeraVe Hydrating Cleanser For Normal & Dry Skin",
+      "video": "https://www.youtube.com/embed/s7Uk7dK1fa8?si=Bmk7asCFGdyooqZt",
+      "Price": "780",
+      "Brand": "7",
+      "NetContent": "236 ml",
+      "Age": "Elderly",
+      "Gender": "Male",
+      "Voting": "4.3",
+      "Ratings": "42",
+      "Offer": "14",
+      "Desc": "Supports the skin barrier. Moisturises the skin. Removes dirt, oil, and make-up. Non-comedogenic, non-irritating",
+      "id": "e5c6"
+    },
+    {
+      "id": "7703",
+      "imagePath": "./images/s4d20.png",
+      "imageTitle": "Cipladine Water-Soluble Microbicidal Povidone-lodine Ointment",
+      "Brand": "7",
+      "Age": "Elderly",
+      "Gender": "Unisex",
+      "video": "https://www.youtube.com/embed/qvCbHnTe1F4?si=SHyHQ1CYCB9a-TWA",
+      "Price": "65",
+      "NetContent": "20 gm",
+      "Voting": "4.6",
+      "Ratings": "413",
+      "Offer": "24",
+      "Desc": "Works by inhibiting the growth of infection-causing microbes. Helps to prevent infections of the lining of the mouth and throat. Used for degerming the intravenous devices in blood transfusions"
+    },
+    {
+      "id": "9414",
+      "imagePath": "./images/s4d21.png",
+      "imageTitle": "CeraVe AM Facial Moisturising Lotion for Normal to Dry Skin SPF 30",
+      "Brand": "7",
+      "Age": "Elderly",
+      "Gender": "Female",
+      "video": "https://www.youtube.com/embed/WPbMYBd3Sis?si=ZaHSuv4St9BxsQ1F",
+      "Price": "1625",
+      "NetContent": "52 ml",
+      "Voting": "4.3",
+      "Ratings": "310",
+      "Offer": "25",
+      "Desc": "Provides broad-spectrum SPF 50 protection from UVA/UVB rays. Helps moisturise and hydrate skin for up to 24 hours. Lightweight, non-greasy formula with no white residue. Enriched with hyaluronic acid, niacinamide, and ceramides to restore the skin barrier. Non-comedogenic formula. InvisibleZinc™ Technology provides microfine zinc oxide that spreads easily, dries with a clear finish"
+    }
+  ],
+  "carts": [],
+  "users-order": [
+    {
+      "id": "855b",
+      "prodId": [
+        "e5c6"
+      ],
+      "prodCart": [
+        2
+      ],
+      "priceTotal": 1128,
+      "prodTotal": 1,
+      "userID": "f64b"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    let url = new URLSearchParams(window.location.search);
+    let id = url.get("id");
+
+    fetch(`http://localhost:3000/weekProducts/${id}`, {
+        method: "DELETE"
+    })
+    .then((res) => res.json())
+    .then((res) => {
+        console.log("delete successful");
+        window.location.href = "admin-product.html";
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+
+
+</script>
+</html>

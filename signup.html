@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="signup-main p-5 shadow position-relative rounded-4">
+        <i class="bi bi-x-lg signup-close-icon position-absolute" style="top: 5%; right: 10%; cursor: pointer;"></i>
+        <h1>Sign Up</h1>
+        <p class="mt-4">Create an account on TATA 1mg</p>
+        <form id="register-form" action="" class="mt-4">
+          <input class="form-control mb-1 shadow-none" type="text" placeholder="Username" id="rusername">
+          <span id="user-err" class="ps-3 mb-3"></span>
+          <input class="form-control mt-1 mb-1 shadow-none" type="tel" placeholder="Mobile No" id="rmobno">
+          <span id="mobno-err" class="ps-3 mb-3"></span>
+          <input class="form-control mt-1 mb-1 shadow-none" type="email" placeholder="Email ID" id="remail">
+          <span id="email-err" class="ps-3 mb-3"></span>
+          <input class="form-control mt-1 mb-1 shadow-none" type="password" placeholder="Password" id="rpassword">
+          <span id="password-err" class="ps-3 mb-3"></span>
+          <input class="form-control mt-1 mb-1 shadow-none" type="text" placeholder="Address" id="raddress">
+          <span id="address-err" class="ps-3 mb-3"></span><br>
+          <button type="submit" class="pt-2 pb-2 rounded-2 mt-4">Continue</button>
+        </form>
+        <h2 class="text-center mt-4">Have an account? <a href="./login.html">Login</a></h2>
+        <p class="text-center mt-3 para2">By signing up, you agree to our <a href="">Terms and Conditions</a> & <a
+            href="">Privacy Policy.</a></p>
+      </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/signup.js"></script>
+</html>
