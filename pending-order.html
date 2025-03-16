@@ -455,11 +455,13 @@
 
 let btn = document.querySelector(".bts2");
   let email = JSON.parse(localStorage.getItem("email2"));
+  let store_userId = "";
 
   fetch(`http://localhost:3000/visitors?EmailID=${email}`)
     .then((res) => res.json())
     .then((res) => {
       if (res.length > 0) {
+        store_userId = res[0].id;
         btn.innerHTML = `
         <a href="user.html" class="d-flex text-decoration-none align-items-center gap-2">
           <i class="bi fs-5 bi-person-fill"></i>
@@ -574,10 +576,10 @@ let btn = document.querySelector(".bts2");
 </script>
 <script>
 
-  fetch(`http://localhost:3000/users-order?userEmail=${email}`)
+  fetch(`http://localhost:3000/users-order?userID="${store_userId}"`)
   .then((res)=>res.json())
   .then((res)=>{
-    // console.log(res);
+    console.log(res);
     if(res.length == 0)
     {
       document.querySelector(".s4d2").innerHTML = `
